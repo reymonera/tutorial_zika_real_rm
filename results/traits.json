@@ -1,0 +1,1143 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "9.0.0"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "American Samoa",
+        "Brazil",
+        "Colombia",
+        "Dominican Republic",
+        "Ecuador",
+        "French Polynesia",
+        "Guatemala",
+        "Honduras",
+        "Nicaragua",
+        "Panama",
+        "Puerto Rico",
+        "Singapore",
+        "Thailand",
+        "USA",
+        "Venezuela",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.06685860925409666,
+        0.06954112863886547,
+        0.06777415119150765,
+        0.06580459132349431,
+        0.06383770354648087,
+        0.06816992536081695,
+        0.0649720917007738,
+        0.06652043055925794,
+        0.06652043055925977,
+        0.06573905697554237,
+        0.0637654595875589,
+        0.06945292276769381,
+        0.06564749507352799,
+        0.06947621226962412,
+        0.06591979119149959
+      ],
+      "rate": 288.8087953271835,
+      "transition_matrix": [
+        [
+          0.0,
+          1.003876895262327,
+          0.9963550172111566,
+          0.9952896437002106,
+          0.9946230012169108,
+          1.4460253721609528,
+          0.9975031282289334,
+          0.9971345083988995,
+          0.9971345083988988,
+          0.9954111569561134,
+          0.9948023638192712,
+          1.078919996485952,
+          1.05003101496196,
+          0.9948947421334858,
+          0.9950881536837002
+        ],
+        [
+          1.003876895262327,
+          0.0,
+          1.474121896879019,
+          1.535148466604131,
+          1.5033067884278672,
+          1.5022541847336004,
+          1.3746538512079904,
+          1.1573684338942898,
+          1.1573684338942993,
+          1.0568981928959067,
+          1.520499301027465,
+          1.0072702955642556,
+          1.0041668331532105,
+          0.9983332811989849,
+          1.0188055091565384
+        ],
+        [
+          0.9963550172111566,
+          1.474121896879019,
+          0.0,
+          0.9923904144983677,
+          0.9918267420345153,
+          1.0024725389148506,
+          0.9952243885544318,
+          0.9943595633110266,
+          0.9943595633110246,
+          1.4964711038501266,
+          0.9920793853653488,
+          0.9991374814793497,
+          0.9971365530789809,
+          0.9909083612007599,
+          1.5092860694371621
+        ],
+        [
+          0.9952896437002106,
+          1.535148466604131,
+          0.9923904144983677,
+          0.0,
+          1.01496704229669,
+          1.0043750605994082,
+          0.9943295683674142,
+          0.9933542631762798,
+          0.9933542631762778,
+          0.9909010982926376,
+          0.9921514223857562,
+          0.9979913769699442,
+          0.9960669696577373,
+          2.1381971049861,
+          0.9904774205297943
+        ],
+        [
+          0.9946230012169108,
+          1.5033067884278672,
+          0.9918267420345153,
+          1.01496704229669,
+          0.0,
+          1.0073383107671925,
+          0.9939584805620675,
+          0.9928243749384603,
+          0.9928243749384585,
+          0.9903825119535405,
+          0.9929586382198361,
+          0.9972219464465701,
+          0.9953789482164366,
+          0.9897065105865425,
+          0.9899649741743685
+        ],
+        [
+          1.4460253721609528,
+          1.5022541847336004,
+          1.0024725389148506,
+          1.0043750605994082,
+          1.0073383107671925,
+          0.0,
+          1.0053980585490774,
+          1.0035324700828276,
+          1.003532470082827,
+          1.0005237407812715,
+          1.0089198481412087,
+          1.207240279825661,
+          1.1354017476182237,
+          1.0000278420412652,
+          1.0000464703822058
+        ],
+        [
+          0.9975031282289334,
+          1.3746538512079904,
+          0.9952243885544318,
+          0.9943295683674142,
+          0.9939584805620675,
+          1.0053980585490774,
+          0.0,
+          1.179363924484894,
+          1.1793639244849257,
+          0.9930805237139884,
+          1.009853512381067,
+          1.0002480105194973,
+          0.9982281132655326,
+          0.9922711561864725,
+          0.9926884455401126
+        ],
+        [
+          0.9971345083988995,
+          1.1573684338942898,
+          0.9943595633110266,
+          0.9933542631762798,
+          0.9928243749384603,
+          1.0035324700828276,
+          1.179363924484894,
+          0.0,
+          1.4001692852486063,
+          0.9925560060702859,
+          0.9985329216486936,
+          0.9998983390925101,
+          0.9978821923465816,
+          0.9917956251563641,
+          0.9921954020195802
+        ],
+        [
+          0.9971345083988988,
+          1.1573684338942993,
+          0.9943595633110246,
+          0.9933542631762778,
+          0.9928243749384585,
+          1.003532470082827,
+          1.1793639244849257,
+          1.4001692852486063,
+          0.0,
+          0.9925560060702846,
+          0.9985329216486885,
+          0.9998983390925095,
+          0.9978821923465809,
+          0.9917956251563632,
+          0.9921954020195791
+        ],
+        [
+          0.9954111569561134,
+          1.0568981928959067,
+          1.4964711038501266,
+          0.9909010982926376,
+          0.9903825119535405,
+          1.0005237407812715,
+          0.9930805237139884,
+          0.9925560060702859,
+          0.9925560060702846,
+          0.0,
+          0.9905646801277926,
+          0.9980994510584925,
+          0.996182907381054,
+          0.9900547697255152,
+          1.0478538314163872
+        ],
+        [
+          0.9948023638192712,
+          1.520499301027465,
+          0.9920793853653488,
+          0.9921514223857562,
+          0.9929586382198361,
+          1.0089198481412087,
+          1.009853512381067,
+          0.9985329216486936,
+          0.9985329216486885,
+          0.9905646801277926,
+          0.0,
+          0.9974074992190353,
+          0.995553781402898,
+          0.9895771226829787,
+          0.9901439199171136
+        ],
+        [
+          1.078919996485952,
+          1.0072702955642556,
+          0.9991374814793497,
+          0.9979913769699442,
+          0.9972219464465701,
+          1.207240279825661,
+          1.0002480105194973,
+          0.9998983390925101,
+          0.9998983390925095,
+          0.9980994510584925,
+          0.9974074992190353,
+          0.0,
+          1.4596613000707785,
+          0.9976938957244199,
+          0.9977606501016297
+        ],
+        [
+          1.05003101496196,
+          1.0041668331532105,
+          0.9971365530789809,
+          0.9960669696577373,
+          0.9953789482164366,
+          1.1354017476182237,
+          0.9982281132655326,
+          0.9978821923465816,
+          0.9978821923465809,
+          0.996182907381054,
+          0.995553781402898,
+          1.4596613000707785,
+          0.0,
+          0.9957242886984242,
+          0.9958648173767224
+        ],
+        [
+          0.9948947421334858,
+          0.9983332811989849,
+          0.9909083612007599,
+          2.1381971049861,
+          0.9897065105865425,
+          1.0000278420412652,
+          0.9922711561864725,
+          0.9917956251563641,
+          0.9917956251563632,
+          0.9900547697255152,
+          0.9895771226829787,
+          0.9976938957244199,
+          0.9957242886984242,
+          0.0,
+          0.9897230501747867
+        ],
+        [
+          0.9950881536837002,
+          1.0188055091565384,
+          1.5092860694371621,
+          0.9904774205297943,
+          0.9899649741743685,
+          1.0000464703822058,
+          0.9926884455401126,
+          0.9921954020195802,
+          0.9921954020195791,
+          1.0478538314163872,
+          0.9901439199171136,
+          0.9977606501016297,
+          0.9958648173767224,
+          0.9897230501747867,
+          0.0
+        ]
+      ]
+    },
+    "region": {
+      "alphabet": [
+        "North America",
+        "Oceania",
+        "South America",
+        "Southeast Asia",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.31556051615349257,
+        0.244184800654478,
+        0.21541299860055937,
+        0.22484168459146997
+      ],
+      "rate": 99.75188762731159,
+      "transition_matrix": [
+        [
+          0.0,
+          0.8813021934445403,
+          2.7963749644892744,
+          0.8621914197757442
+        ],
+        [
+          0.8813021934445403,
+          0.0,
+          1.2778733343623658,
+          1.3084739297696968
+        ],
+        [
+          2.7963749644892744,
+          1.2778733343623658,
+          0.0,
+          0.8625348344042036
+        ],
+        [
+          0.8621914197757442,
+          1.3084739297696968,
+          0.8625348344042036,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "1_0087_PF": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "1_0181_PF": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "1_0199_PF": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Aedes_aegypti/USA/2016/FL05": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "BRA/2016/FC_6706": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Brazil/2015/ZBRA105": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Brazil/2015/ZBRC301": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Brazil/2015/ZBRC303": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Brazil/2016/ZBRC16": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "COL/FLR_00008/2015": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "COL/FLR_00024/2015": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Colombia/2016/ZC204Se": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DOM/2016/BB_0059": {
+      "country": "Dominican Republic",
+      "country_confidence": {
+        "Dominican Republic": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DOM/2016/BB_0183": {
+      "country": "Dominican Republic",
+      "country_confidence": {
+        "Dominican Republic": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DOM/2016/BB_0433": {
+      "country": "Dominican Republic",
+      "country_confidence": {
+        "Dominican Republic": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DOM/2016/MA_WGS16_011": {
+      "country": "Dominican Republic",
+      "country_confidence": {
+        "Dominican Republic": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "EcEs062_16": {
+      "country": "Ecuador",
+      "country_confidence": {
+        "Ecuador": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HND/2016/HU_ME59": {
+      "country": "Honduras",
+      "country_confidence": {
+        "Honduras": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "American Samoa": 0.1306851402172888,
+        "French Polynesia": 0.3941394897179855,
+        "Singapore": 0.14729946523985316,
+        "Thailand": 0.09604429086001663
+      },
+      "country_entropy": 2.033581142484819,
+      "region": "Oceania",
+      "region_confidence": {
+        "North America": 0.016919030910523786,
+        "Oceania": 0.6813054730383871,
+        "South America": 0.01642169929039252,
+        "Southeast Asia": 0.2853537967606966
+      },
+      "region_entropy": 0.7557854948068727
+    },
+    "NODE_0000001": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "Brazil": 0.0019056807853715402,
+        "French Polynesia": 0.9975982389351252
+      },
+      "country_entropy": 0.019240816668743544,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9989331386344951
+      },
+      "region_entropy": 0.008747451944377593
+    },
+    "NODE_0000002": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "American Samoa": 0.0060679933830691205,
+        "Brazil": 0.0015118737982647013,
+        "French Polynesia": 0.9854334283076112,
+        "Singapore": 0.001701578792266884
+      },
+      "country_entropy": 0.10611610868170339,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9989487029689128
+      },
+      "region_entropy": 0.008988577529398856
+    },
+    "NODE_0000003": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "American Samoa": 0.18184299333108958,
+        "French Polynesia": 0.6125432592678579,
+        "Singapore": 0.05327815247492123,
+        "Thailand": 0.03544522275114728
+      },
+      "country_entropy": 1.4148165989152435,
+      "region": "Oceania",
+      "region_confidence": {
+        "North America": 0.001439091024452586,
+        "Oceania": 0.9735671517766542,
+        "South America": 0.001889777130170418,
+        "Southeast Asia": 0.023103980068722704
+      },
+      "region_entropy": 0.1343988058709898
+    },
+    "NODE_0000004": {
+      "country": "American Samoa",
+      "country_confidence": {
+        "American Samoa": 0.9887151253643003,
+        "French Polynesia": 0.005529363250328432
+      },
+      "country_entropy": 0.08425202379200013,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9994685571396805
+      },
+      "region_entropy": 0.004997186783498489
+    },
+    "NODE_0000005": {
+      "country": "Singapore",
+      "country_confidence": {
+        "American Samoa": 0.025302750967679772,
+        "French Polynesia": 0.06037034771512189,
+        "Singapore": 0.5004501562816358,
+        "Thailand": 0.30257781407729295
+      },
+      "country_entropy": 1.4816407393164523,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "North America": 0.0010266741347293574,
+        "Oceania": 0.016586947644960885,
+        "Southeast Asia": 0.9814782186379598
+      },
+      "region_entropy": 0.09976720996062918
+    },
+    "NODE_0000006": {
+      "country": "Singapore",
+      "country_confidence": {
+        "French Polynesia": 0.0015242688157526868,
+        "Singapore": 0.9858625126719526,
+        "Thailand": 0.007666079764207837
+      },
+      "country_entropy": 0.09971216731074252,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9995097393230105
+      },
+      "region_entropy": 0.004468842646757905
+    },
+    "NODE_0000007": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9999814921172839
+      },
+      "country_entropy": 0.0002564829957753782,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.999998358670009
+      },
+      "region_entropy": 2.471178305629923e-05
+    },
+    "NODE_0000010": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9498568290003762,
+        "Ecuador": 0.006673850066613458,
+        "French Polynesia": 0.025641777237050717,
+        "Puerto Rico": 0.00842850485202779
+      },
+      "country_entropy": 0.27978760996828433,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.037985888014064745,
+        "Oceania": 0.005527083599476973,
+        "South America": 0.9564083082249422
+      },
+      "region_entropy": 0.19633602696974725
+    },
+    "NODE_0000011": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9957177625856692,
+        "Colombia": 0.002420529073581003
+      },
+      "country_entropy": 0.03432045220463509,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9996596440568642
+      },
+      "region_entropy": 0.0030960809959402888
+    },
+    "NODE_0000012": {
+      "country": "Nicaragua",
+      "country_confidence": {
+        "Brazil": 0.08482332744065586,
+        "Guatemala": 0.11249714183208702,
+        "Honduras": 0.36869933159913804,
+        "Nicaragua": 0.36869933159914564
+      },
+      "country_entropy": 1.524711938630272,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9958872576248107,
+        "South America": 0.0040463057574391245
+      },
+      "region_entropy": 0.027083471416239003
+    },
+    "NODE_0000013": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9993591333461856
+      },
+      "country_entropy": 0.0069019044013261446,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9995160961151864
+      },
+      "region_entropy": 0.004355031970252658
+    },
+    "NODE_0000014": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Brazil": 0.1244445474991126,
+        "Colombia": 0.7898169302931101,
+        "Panama": 0.04678835816491194,
+        "Venezuela": 0.015116669562288779
+      },
+      "country_entropy": 0.7982831026575788,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.004539067614958617,
+        "South America": 0.9953822465565869
+      },
+      "region_entropy": 0.029884229678743837
+    },
+    "NODE_0000015": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Brazil": 0.04075978019242691,
+        "Colombia": 0.7288046665679472,
+        "Panama": 0.1577882575438779,
+        "Venezuela": 0.04660525541929073
+      },
+      "country_entropy": 0.9525996271972585,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.06785357242795899,
+        "South America": 0.9316748222730269
+      },
+      "region_entropy": 0.25238934105814675
+    },
+    "NODE_0000016": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Brazil": 0.012790653860428474,
+        "Colombia": 0.7849488497222878,
+        "Panama": 0.046222194857166624,
+        "Venezuela": 0.1357669461481728
+      },
+      "country_entropy": 0.786643734435873,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.004662536784908372,
+        "South America": 0.9952568531432838
+      },
+      "region_entropy": 0.030567334270610064
+    },
+    "NODE_0000017": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9920034429043113,
+        "Panama": 0.0016168924161093486,
+        "Venezuela": 0.0044271529772853075
+      },
+      "country_entropy": 0.05904408214666257,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9993373439204178
+      },
+      "region_entropy": 0.005690579208888907
+    },
+    "NODE_0000019": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.860699589113313,
+        "French Polynesia": 0.011284420891615504,
+        "Guatemala": 0.01346566998183927,
+        "Puerto Rico": 0.08661570801548872
+      },
+      "country_entropy": 0.6128726819754788,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.4323480968446157,
+        "South America": 0.5666157570067023
+      },
+      "region_entropy": 0.6920593520320466
+    },
+    "NODE_0000020": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.8781352531141423,
+        "Guatemala": 0.0403452211829156,
+        "Nicaragua": 0.011968342601122265,
+        "Puerto Rico": 0.03274513106882048
+      },
+      "country_entropy": 0.6076453814677534,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.4384517207895727,
+        "South America": 0.5608571123452716
+      },
+      "region_entropy": 0.6912927687027502
+    },
+    "NODE_0000021": {
+      "country": "Guatemala",
+      "country_confidence": {
+        "Brazil": 0.302954211503886,
+        "Guatemala": 0.3866428265798572,
+        "Honduras": 0.11385736729797204,
+        "Nicaragua": 0.11385736729797585
+      },
+      "country_entropy": 1.6224807479285421,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9528397324299156,
+        "South America": 0.046848168668304144
+      },
+      "region_entropy": 0.1921510627486656
+    },
+    "NODE_0000023": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.8701568866294271,
+        "Dominican Republic": 0.029639866810863724,
+        "Ecuador": 0.06572390543111761,
+        "French Polynesia": 0.011530722037976367
+      },
+      "country_entropy": 0.5950927170791865,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.025934170274474054,
+        "South America": 0.9734775332068111
+      },
+      "region_entropy": 0.12543133269250104
+    },
+    "NODE_0000024": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.8735885945698383,
+        "Dominican Republic": 0.08539780273822549,
+        "Ecuador": 0.01941021019306407,
+        "French Polynesia": 0.004455435549901561
+      },
+      "country_entropy": 0.5387765947231973,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.0781575071759707,
+        "South America": 0.9213134970005262
+      },
+      "region_entropy": 0.2790279153796816
+    },
+    "NODE_0000025": {
+      "country": "Dominican Republic",
+      "country_confidence": {
+        "Brazil": 0.026873107697695672,
+        "Dominican Republic": 0.9657806054051004,
+        "USA": 0.0019724529781933653
+      },
+      "country_entropy": 0.184296361995294,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9278415008143982,
+        "South America": 0.0717020956468289
+      },
+      "region_entropy": 0.2622542737049946
+    },
+    "NODE_0000026": {
+      "country": "Dominican Republic",
+      "country_confidence": {
+        "Dominican Republic": 0.9976576881961763,
+        "USA": 0.0019899517793670013
+      },
+      "country_entropy": 0.018011318706455674,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9993886193996758
+      },
+      "region_entropy": 0.0051536316888197275
+    },
+    "NODE_0000028": {
+      "country": "Dominican Republic",
+      "country_confidence": {
+        "Dominican Republic": 0.5220009975908556,
+        "USA": 0.47345006036809645
+      },
+      "country_entropy": 0.7294407447239051,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9993761276477409
+      },
+      "region_entropy": 0.005403214202751683
+    },
+    "NODE_0000029": {
+      "country": "USA",
+      "country_confidence": {
+        "Dominican Republic": 0.022323723052449916,
+        "USA": 0.9757325479440268
+      },
+      "country_entropy": 0.12595143149170376,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9994687631792517
+      },
+      "region_entropy": 0.004700270079670725
+    },
+    "NODE_0000030": {
+      "country": "Dominican Republic",
+      "country_confidence": {
+        "Dominican Republic": 0.5221137819583913,
+        "USA": 0.4733501054840153
+      },
+      "country_entropy": 0.7293437854346639,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9994264386650112
+      },
+      "region_entropy": 0.005025343334319581
+    },
+    "NODE_0000031": {
+      "country": "USA",
+      "country_confidence": {
+        "Dominican Republic": 0.022328493033099608,
+        "USA": 0.9757277839511657
+      },
+      "country_entropy": 0.12596948381136763,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9994726337538659
+      },
+      "region_entropy": 0.0046706813442475075
+    },
+    "Nica1_16": {
+      "country": "Nicaragua",
+      "country_confidence": {
+        "Nicaragua": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PAN/CDC_259359_V1_V3/2015": {
+      "country": "Panama",
+      "country_confidence": {
+        "Panama": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PRVABC59": {
+      "country": "Puerto Rico",
+      "country_confidence": {
+        "Puerto Rico": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SG_018": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SG_027": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "SG_056": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "SG_074": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "SMGC_1": {
+      "country": "American Samoa",
+      "country_confidence": {
+        "American Samoa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Thailand/1610acTw": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "USA/2016/FL022": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "USA/2016/FLUR022": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "USA/2016/FLWB042": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V8375": {
+      "country": "Guatemala",
+      "country_confidence": {
+        "Guatemala": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "VEN/UF_1/2016": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "ZKC2/2016": {
+      "country": "American Samoa",
+      "country_confidence": {
+        "American Samoa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    }
+  }
+}
